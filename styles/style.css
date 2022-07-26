@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Rochester&display=swap'); /*Rochester*/
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Pompiere&family=Rochester&display=swap');/*Pompiere*/
+
+/*mobile first*/
+
+*{
+   
+    padding:0 ;
+    margin: 0;
+}
+
+.imgLogo{
+    width: 3em;
+    height: 3em;
+    
+    
+}
+
+.flecha{
+    width: 3em;
+    height: 3em;
+    bottom: 0;
+}
+
+.logoWpp{
+    width: 3em;
+    height: 3em;
+    margin-left: 90%;
+
+}
+
+.imgRedes{
+    width: 2em;
+    height: 2em;
+
+}
+
+body{
+    
+    background-color: #ffcdd4;
+    text-align: center;
+    font-family:'Pompiere';
+    font-weight: bolder;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+
+nav ul li a {
+    
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+} 
+
+header{
+    font-size:large ;
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+h1 {
+    
+    font-family: 'Pompiere', cursive;
+    color: azure;
+    
+}
+
+h2{ 
+    
+    font-family: 'Pompiere';
+    color: azure;
+    
+    
+}
+
+h3{
+    font-family:"Pompiere";
+    color: azure;
+    font-size: large;
+}
+
+
+
+
+
+
+footer{
+    
+    background-color:bisque;
+    margin-bottom: 0;
+    
+
+}
+
+/*areas grilla*/
+div .logo{
+    grid-area: logo;
+}
+
+div .redes{
+    grid-area: redes;
+}
+
+div h1{
+    grid-area: h1;
+}
+
+div h2{
+    grid-area: h2;
+}
+nav{
+    grid-area: nav;
+
+}
+.contenido{
+    grid-area: contenido;
+}
+article{
+    grid-area: article;
+
+}
+section{
+    grid-area: section;
+}
+
+footer{
+    grid-area:footer;
+
+}
+
+.envoltura{
+    display: grid;
+    margin-bottom: 1.5em;
+
+    grid-template-areas: 
+   "logo"
+   "redes"
+   "h1"
+   "h2"
+   "nav"
+   "contenido"
+   "article"
+   "section"
+   "footer";
+    gap: 20px;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap:15px;
+    justify-items: center;
+    
+}
+
+.imgCon{
+    border: 8px solid bisque;
+    width: 300px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+
+
+@media (min-width:500px){
+
+    .envoltura{
+        display: grid;
+        
+        grid-template-areas: 
+            "logo h1 h1 redes"
+            "h2"
+            "nav"
+            "contenido"
+            "article"
+            "section"
+            "footer";
+    
+    }
+
+    nav ul li a {
+        text-align:justify;
+        justify-content: space-between;
+        
+        
+    
+    } 
+
+    img{
+        width:350px;
+        height: 300px;
+    }
+
+
+    footer{
+        margin-bottom: 0;
+    }
+    
+
+
+}
