@@ -32,7 +32,19 @@
 .imgRedes{
     width: 2em;
     height: 2em;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
 
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 body{
@@ -69,7 +81,9 @@ h1 {
     font-family: 'Pompiere', cursive;
     color: azure;
     
+    
 }
+
 
 h2{ 
     
@@ -83,6 +97,8 @@ h3{
     font-family:"Pompiere";
     color: azure;
     font-size: large;
+    
+
 }
 
 
@@ -92,8 +108,9 @@ h3{
 
 footer{
     
-    background-color:bisque;
+    background-image: linear-gradient(to top,  pink , bisque, lightblue );
     margin-bottom: 0;
+    
     
 
 }
@@ -165,7 +182,7 @@ footer{
     width: 300px;
     height: 250px;
     margin-top: 15px;
-}
+    
 
 
 
@@ -202,7 +219,5 @@ footer{
     footer{
         margin-bottom: 0;
     }
-    
-
-
+    }
 }
