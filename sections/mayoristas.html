@@ -1,91 +1,143 @@
 <!DOCTYPE html>
+<!--LINKS IMPORTANTES-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mayoristas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="shortcut icon" href="../images/favicon-16x16.png" type="image/x-icon">
+   
     
 
 </head>
 
-<body  id="inicio">
-<!--------------------------------------------------------------------------------------------Logo index y Titulo-->
-   
-<a href= "../index.html" > <img class="imgLogo"  src="../images/logo margaritas blanco.png"  alt="logo de margaritas para ir a inicio" > </a>
-    <div class="redes">
-          
-        <a href="https://www.youtube.com/channel/UCwV1MxsBw7jYaT0XFiSgEXw" target="_blank"> <img class="imgRedes" src="../images/iconYoutube.png"> </a> 
-        <a href= "https://www.facebook.com/margaritass.margaritass" target="_blank">  <img class="imgRedes" src="../images/iconFacebook.png"> </a>
-        <a href="https://www.instagram.com/margaritas.margaritas" target="_blank"> <img class="imgRedes" src="../images/iconInstagram.png"> </a> 
-    </div>
+<!--LOGO, REDES SOCIALES Y TITULO-->
+<body  id="inicio" >
+    <header>
+        <div>
+            <div class="logo">
+                <a href= "../index.html"> <img class="imgLogo"  src="../images/logo margaritas blanco.png"  alt="logo de margaritas para ir a inicio" > </a>
+            </div>
+            <div>  
+                <ul class="nav justify-content-end redes">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.youtube.com/channel/UCwV1MxsBw7jYaT0XFiSgEXw" target="_blank"><img class="imgRedes" src="../images/iconYoutube.png"></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href= "https://www.facebook.com/margaritass.margaritass" target="_blank"><img class="imgRedes" src="../images/iconFacebook.png"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/margaritas.margaritas" target="_blank"><img class="imgRedes" src="../images/iconInstagram.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h1>  Margaritas  </h1> 
+         </div>
+        <div>
+             <h1> accesorios y más </h1>
+        </div>
+    </header> 
+<!---MENU PRINCIPAL-->
 
-<h1>  Margaritas  </h1> 
-<h1> ¡accesorios y más! </h1>
+<div class="menu">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../sections/tienda.html">Tienda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../sections/quienesSomos.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../sections/mayoristas.html">Mayorista</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../sections/contacto.html">Contacto </a>
+        </li>
+    </ul>
+</div>
 
-
-<header>
-<!-----------------------------------------------------------------------------------------Menu y secciones--->
-  <div class="menu">
-      <div>
-          <a href="../sections/tienda.html"> Tienda </a>
-      </div>
-
-      <div>
-          <a href="../sections/quienesSomos.html"> Quienes somos </a>
-      </div>
-
-      <div>
-          <a href="../sections/mayoristas.html"> Mayorista </a>
-      </div>
-
-      <div>
-          <a href="../sections/contacto.html"> Contacto </a>
-      </div>
-  </div>
-</header>
-
-  <!------------------------------------------------------------------------------------------------------Contenido de la pagina-->
+<!--CONTENIDO DE PAGINA-->
 <section>
     <h2> Informacion Mayorista  </h2>
-    <br>
-        
-    <p>¿Tenes local? ¿Sos revendedora? ¡ESTA INFO ES PARA VOS! </p>
+
+    <p>Tenes local? Sos revendedora? ¡ESTA INFO ES PARA VOS! </p>
     <p >Hacemos ventas mayoristas con un minimo de compra de $5000 , los productos son a tu eleccion. </p>
 
-    <img class="imgMayorista" src="../images/MoñosMayorista.jpg">
+<!--CARRUSEL DE IMAGENES-->
+    <div class="carrusel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../images/COMBO MOÑO TURBANTE.jpg" class="d-block w-100" alt="moño con turbante en combo">
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../images/CARPETA ROJA.jpg" class="d-block w-100" alt="carpeta tejida roja">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/SCRUNCHIE CRUDO.jpg" class="d-block w-100" alt="scrunchue crudo">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+</section>
 
-    <p>Tomamos pedido con 7 dias de anticipacion, podemos tener demoras, recorda que es un producto HECHO A MANO.</p> 
-    <P><span> Y ellos son UNICOS y EXCLUSIVOS.</span></p>
+<!--INFORMACION IMPORTANTE-->
 
-    <p class="mayoristaInfo"> Aceptamos todos los medios de pago.</p>
-    <p class="mayoristaInfo"> Envios a todo el pais </p>
+<section>
+
+    <div class="alert alert-warning" role="alert">
+        <p>Tomamos pedido con 7 dias de anticipacion, podemos tener demoras, recorda que es un producto HECHO A MANO.</p> 
+        <P>Y ellos son UNICOS y EXCLUSIVOS.</p>
+    </div>
+    
+    <div class="alert alert-warning" role="alert">
+        <p class="mayoristaInfo"> Aceptamos todos los medios de pago.</p>
+        <p class="mayoristaInfo"> Envios a todo el pais </p>
+    </div>
        
 </section>    
  
-<!-----------------------------------------------------------------------------------------------Pie de pagina -->
+<!--PIE DE PAGINA-->
 
 <footer class="footer">
-
-    <p class="footerText"> Hecho a mano y con amor ... </p>
-    <p class="footerText">Escribenos</p>
-        
-    <nav>
-        <ul>
-                
-            <li>
-                 <a href="#inicio"> <img  class="comienzoPag" src="../images/arriba.png" alt="flecha para ir al inicio de pagina">  </a> 
-            </li>
-        
-        </ul>
-    </nav>
-        
-<article  >
+    <P>
+    Hecho a mano y con amor ... 
+    </P>
+    
+    <a href="#inicio"> <img class="flecha" src="../images/arriba.png" alt="flecha para ir al inicio de pagina">  </a> 
     <a  href ="https://api.whatsapp.com/send?phone=543547504957&text=Hola%20yeri%20!%20Necesito%20informacion%20sobre%20Margaritas%20accesorios.%20" target="_blank"> <img  class= "logoWpp " src="../images/logo whatsapp.webp" alt="logo de whatsapp"> </a>
-</article>
         
 </footer>
+
+<!--LINK DE FRAMEWORK-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
