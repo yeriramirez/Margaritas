@@ -1,0 +1,55 @@
+.imagenFinal{
+    padding: 10%;
+    width: 70%;
+    height: 70%;
+}
+
+
+
+.carrusel  {
+
+    div{
+
+        img{
+            width: 10px;
+            height: 10px ;  
+            margin: 1%;
+            padding: 1% 5% 5% 5% ;
+        }
+    }
+}
+
+.logo{
+    margin-right: 90%;
+}
+
+.imgLogo{
+    width: 4em;
+    height: 4em;   
+}
+
+.flecha{
+    margin-left: 10%;
+    width: 3em;
+    height: 3em;
+    bottom: 0;
+}
+
+.logoWpp{
+    width: 3em;
+    height: 3em;
+    margin-left: 90%;
+}
+
+.imgRedes{
+    width: 2em;
+    height: 2em;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+
+.imgCon{
+    border: 8px solid bisque;
+}

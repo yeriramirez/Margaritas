@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Rochester&display=swap"); /*Rochester*/
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Pompiere&family=Rochester&display=swap"); /*Pompiere*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ffcdd4;
+  font-family: "Pompiere";
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.redes {
+  margin-top: 0;
+}
+
+article {
+  padding: 10%;
+}
+
+section {
+  padding: 10%;
+}
+
+.historia {
+  background-color: wheat;
+  color: black;
+  text-align: justify;
+  font-size: x-large;
+}
+
+.menu {
+  background-color: papayawhip;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: xx-large;
+  padding: 5%;
+  color: white !important;
+}
+
+header {
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pompiere", cursive;
+  color: white;
+}
+
+h2, h3 {
+  font-family: "Pompiere";
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  background-color: bisque;
+}
+
+div p {
+  color: black;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-size: x-large;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  background-image: linear-gradient(to top, bisque, pink, plum);
+  padding: 0.5%;
+}
+
+/*IMAGENES*/
+.imagenFinal {
+  padding: 10%;
+  width: 70%;
+  height: 70%;
+}
+
+.carrusel div img {
+  width: 2em;
+  height: 30em;
+  margin: 1%;
+  padding: 1% 5% 5% 5%;
+}
+
+.logo {
+  margin-right: 90%;
+}
+
+.imgLogo {
+  width: 4em;
+  height: 4em;
+}
+
+.flecha {
+  margin-left: 10%;
+  width: 3em;
+  height: 3em;
+  bottom: 0;
+}
+
+.logoWpp {
+  width: 3em;
+  height: 3em;
+  margin-left: 90%;
+}
+
+.imgRedes {
+  width: 2em;
+  height: 2em;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.imgCon {
+  border: 8px solid bisque;
+}/*# sourceMappingURL=estilos.css.map */

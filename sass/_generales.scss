@@ -1,0 +1,56 @@
+$colorfondo: #ffcdd4;
+$blanco: white;
+
+*{
+    padding:0 ;
+    margin: 0;
+}
+
+body{
+    
+    background-color: $colorfondo ;
+    font-family:'Pompiere';
+    font-weight: bolder;
+    padding: 20px;
+}
+
+
+
+footer{ 
+    color: $blanco;
+    text-align: center;
+    margin-bottom: 0;
+    background-image: linear-gradient(to top,  bisque, pink ,plum );
+    padding:0.5%;
+}
+
+.redes{
+    margin-top: 0;
+}
+
+.historia{
+    background-color: wheat;
+    color: black;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.menu  {
+    background-color: papayawhip;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 5%;
+    color: white!Important;
+}
+
+@keyframes aparecer{
+
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
