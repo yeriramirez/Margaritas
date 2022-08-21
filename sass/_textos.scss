@@ -4,14 +4,36 @@ h1 {
     color: white;
 }
 
+
 h2, h3{ 
     font-family: 'Pompiere'; 
     color: white;
     text-align: center;
+    
 }
 
-h2{
+.h2Style{
+    background-color:blanchedalmond;
+}
+/*extend*/ 
+.h2--extend{
+    @extend .h2Style;
+    border: 3px solid white;
+}
+
+/*mixin*/
+
+@mixin size ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.my_mixin{
+    @include size (500px, 50px);
+    display: flex;
+    justify-content: center;
     background-color: bisque;
+    text-align: center;
 }
 
 div {

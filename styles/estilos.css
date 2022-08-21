@@ -12,16 +12,16 @@ body {
   padding: 20px;
 }
 
+footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  background-image: linear-gradient(to top, bisque, pink, plum);
+  padding: 0.5%;
+}
+
 .redes {
   margin-top: 0;
-}
-
-article {
-  padding: 10%;
-}
-
-section {
-  padding: 10%;
 }
 
 .historia {
@@ -38,91 +38,6 @@ section {
   font-size: xx-large;
   padding: 5%;
   color: white !important;
-}
-
-header {
-  font-size: large;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Pompiere", cursive;
-  color: white;
-}
-
-h2, h3 {
-  font-family: "Pompiere";
-  color: white;
-  text-align: center;
-}
-
-h2 {
-  background-color: bisque;
-}
-
-div p {
-  color: black;
-}
-
-p {
-  color: white;
-  text-align: justify;
-  font-size: x-large;
-}
-
-footer {
-  color: white;
-  text-align: center;
-  margin-bottom: 0;
-  background-image: linear-gradient(to top, bisque, pink, plum);
-  padding: 0.5%;
-}
-
-/*IMAGENES*/
-.imagenFinal {
-  padding: 10%;
-  width: 70%;
-  height: 70%;
-}
-
-.carrusel div img {
-  width: 2em;
-  height: 30em;
-  margin: 1%;
-  padding: 1% 5% 5% 5%;
-}
-
-.logo {
-  margin-right: 90%;
-}
-
-.imgLogo {
-  width: 4em;
-  height: 4em;
-}
-
-.flecha {
-  margin-left: 10%;
-  width: 3em;
-  height: 3em;
-  bottom: 0;
-}
-
-.logoWpp {
-  width: 3em;
-  height: 3em;
-  margin-left: 90%;
-}
-
-.imgRedes {
-  width: 2em;
-  height: 2em;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: aparecer;
-          animation-name: aparecer;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes aparecer {
@@ -142,6 +57,109 @@ footer {
     opacity: 1;
   }
 }
+article {
+  margin: 1%;
+  border: 1%;
+  padding: 1% 10% 1% 10%;
+}
+
+section {
+  margin: 1%;
+  border: 1%;
+  padding: 5% 1% 5% 1%;
+}
+
+header {
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pompiere", cursive;
+  color: white;
+}
+
+h2, h3 {
+  font-family: "Pompiere";
+  color: white;
+  text-align: center;
+}
+
+.h2Style, .h2--extend {
+  background-color: blanchedalmond;
+}
+
+/*extend*/
+.h2--extend {
+  border: 3px solid white;
+}
+
+/*mixin*/
+.my_mixin {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  text-align: center;
+}
+
+div p {
+  color: black;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-size: x-large;
+}
+
+.imagenFinal {
+  padding: 10%;
+  width: 70%;
+  height: 70%;
+}
+
+.carrusel div img {
+  width: 10px;
+  height: 10px;
+  margin: 1%;
+  padding: 1% 5% 5% 5%;
+}
+
+.logo {
+  margin-right: 90%;
+}
+
+.imgLogo {
+  width: 4em;
+  height: 4em;
+}
+
+.logoWpp {
+  width: 3em;
+  height: 3em;
+  margin-left: 90%;
+}
+
+.flecha {
+  margin-left: 10%;
+  width: 3em;
+  height: 3em;
+  bottom: 0;
+}
+
+.imgRedes {
+  width: 2em;
+  height: 2em;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .imgCon {
   border: 8px solid bisque;
 }/*# sourceMappingURL=estilos.css.map */
